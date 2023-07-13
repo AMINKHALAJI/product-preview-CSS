@@ -26,7 +26,7 @@ body{
     display: grid;
     grid-template-columns: 330px;
     grid-template-rows: 1fr 2fr ;
-    margin: 10px auto;
+    margin: 100px auto;
     /* grid-auto-rows: auto;
     grid-auto-columns: auto; */
 }
@@ -101,7 +101,7 @@ body{
     
  }
 
- @media  (max-width: 1450px) and (min-width: 650px){
+ @media  (max-width: 1500px) and (min-width: 650px){
     .perfume{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -116,15 +116,13 @@ body{
         text-decoration: none;
      }
      .article-img{
-        /* height: 475px; */
-        /* width:375px ; */
-        /* width: 375px; */
         width: auto;
+        height: 400px;
         min-width: 250px;
         max-width: 300px;
         /* max-width: max-content; */
         /* min-width: 250px; */
-        height: 400px;
+        
         
      }
      .article-details{
